@@ -23,7 +23,7 @@ Follow these steps:
 17. Click 'OK'
 18. Right-click on the new task in the task list -> click 'Run'
 
-If successful, you will see a Windows notification pop up in the bottom-right of your primary screen. This notification lets you know that setup is successful. If there is no notification, there are either some errors with the setup above or with your Windows PowerShell. Try opening the script in PowerShell ISE and running it manually yourself to see the erros. You probably need to change you PowerShell script execution policy: https://www.sqlshack.com/choosing-and-setting-a-powershell-execution-policy/ (you have to set it to Unrestricted).
+If successful, you will see a Windows notification pop up in the bottom-right of your primary screen. This notification lets you know that setup is successful. If there is no notification, there are either some errors with the setup above or with your Windows PowerShell. Try opening the script in PowerShell ISE and running it manually yourself to see the errors. You probably need to change you PowerShell script execution policy: https://www.sqlshack.com/choosing-and-setting-a-powershell-execution-policy/ (you have to set it to Unrestricted).
 
 -For help contact u/SimplyGuy on Reddit;
 
@@ -31,4 +31,4 @@ If successful, you will see a Windows notification pop up in the bottom-right of
 === AFTER SETUP ===
 ===================
 
-After successful setup, if you followed my Task Scheduler setup, SteamReviewChecker will run at every logon and check if your Steam apps' reviews have increased. If they do increase, a Windows notification will pop up and tell you how many reviews you have received per game. If you want to change how often/when the task runs, you can edit the task itself in Windows Task Scheduler. If you want to change what happens when SteamReviewChecker detects a change in review number, you can edit the 'Register-ReviewsChanged' function in src.ps1. The rest is up to you.
+After successful setup, if you followed my Task Scheduler setup, SteamReviewChecker will run at every logon and check if your Steam apps' reviews have increased. If they do increase, a Windows notification will pop up and tell you how many reviews you have received per game. If you want to change how often/when the task runs, you can edit the task itself in Windows Task Scheduler. If you want to change what happens when SteamReviewChecker detects a change in review number, you can edit the 'Register-ReviewsChanged' function in src.ps1. The rest is up to you!
